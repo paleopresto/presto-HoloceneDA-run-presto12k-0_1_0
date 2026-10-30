@@ -215,6 +215,7 @@ jobs:
       site_dataset_id: presto_daholocene
       site_dataset_name: 'presto-Holocene DA'
       site_version: '0_1_0'
+      reference_period: '0, 1000'   # show anomalies relative to 0-1 ka, like Holocene DA
 
   deploy-to-github-pages:
     name: Deploy to GitHub Pages
